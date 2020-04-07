@@ -44,9 +44,7 @@
 			}
 			
 			request.send();
-			console.log("4 - Request sent");
-			
-			console.log(request.readyState)	
+			console.log("4 - Request sent");	
 		}
 	</script>
 </head>
@@ -54,6 +52,12 @@
 
 <body onLoad="getImage()">
 	<h1>Dog Image</h1>
+	<div>
+		<p>This API provides images of dogs as well as a list of different types of breed and sub-breeds</p>
+		<p>Website where I found it: https://dog.ceo/dog-api/</p>
+		<p>For the API request, I used the option where it generates a random image of a dog. For every access to the data, the API request generates a random image.</p>
+		<p>This API would be helpful when you want a free image of a dog quickly. Instead of searching up dog images, you can just use this API to get an image of a dog at a very fast speed. This API is also useful when you just want to look at different breeds of dogs since this API shows you all the different breeds at random.</p>
+	</div>
 	<div id="data">Loading...</div>
 </body>
 </html>
